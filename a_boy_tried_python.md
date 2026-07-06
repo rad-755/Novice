@@ -1,95 +1,181 @@
-#Dictonary
+# Python Learning Notes
 
--methods and other things I black out easilMethodDescription
-keys() Returns a sequence containing only the keys from the dictionary. values() Returns a sequence containing only the values from the dictionary. items() Returns a sequence of tuples, where each tuple contains a key and value of an element. get(key, [default]) Returns the value associated with the key. If the key is not found it returns None. We can also provide a optional default value as the second argument in which case if the key is not found, default value will be returned instead of None.
--pop(key) Returns the value associated with the key then removes the specified key and it's corresponding value from the dictionary. If key doesn't exists KeyError exception is -raised. popitem()Removes and return a random element from the dictionary as a tuple. copy()Creates a new copy of the dictionary.clear()Removes all the elements from the dictionary.
+A collection of Python topics that I have learned so far and topics that I want to revisit later.
 
+---
 
+# Dictionary
 
+## Things I Easily Forget
 
+* Dictionary methods and their uses.
 
+### Common Dictionary Methods
 
+| Method              | Description                                                                                               |
+| ------------------- | --------------------------------------------------------------------------------------------------------- |
+| `keys()`            | Returns a view containing all keys in the dictionary.                                                     |
+| `values()`          | Returns a view containing all values in the dictionary.                                                   |
+| `items()`           | Returns a view of key-value pairs as tuples.                                                              |
+| `get(key, default)` | Returns the value for a key. If the key does not exist, it returns `None` or the specified default value. |
+| `pop(key)`          | Removes the specified key and returns its value. Raises `KeyError` if the key does not exist.             |
+| `popitem()`         | Removes and returns the last inserted key-value pair (in modern Python versions).                         |
+| `copy()`            | Creates a shallow copy of the dictionary.                                                                 |
+| `clear()`           | Removes all items from the dictionary.                                                                    |
 
+---
 
+# Sets
 
+## Things to Review
 
+* Set methods
+* Built-in functions that work with sets
+* Other useful set operations
 
--Sets its method and built in functions
--Learn the things and functions
+---
 
+# Tuples
 
-##Tuple 
--and how to make tuple Make it from iterables
--In python i need to iterables, mutables, immutables Unpacking Operations on tuples
+## Things to Learn
 
-#Error Handling 
--has couple of thingsWe could learn that
--There is try - except, else, raise
--We have to learn about the types of error and have some skills on identifying them and practicing them well
+* Creating tuples
+* Creating tuples from iterables
+* Understanding:
 
-#Functions
--Main function how it works
--Arguments — how you call a function — parameters — arg mutable and immutable types
--Return statements – multiple value returning – void functions vs non void functions
--Ways of expressing a function
+  * Iterables
+  * Mutable objects
+  * Immutable objects
+* Tuple unpacking
+* Operations on tuples
 
-#Classes and objects
--Self , __init__() — and changing objects attribute 
--How to hide the attributes 
+---
 
+# Error Handling
 
-#Polymorphism and inheritence 
--Yeah they are kind of making child class seeing and getting which works fine and which don’t
--Overriding things
--We will get back to this later so far we did good
+## Topics
 
+* `try`
+* `except`
+* `else`
+* `finally`
+* `raise`
+* Common Python exceptions
+* Identifying different error types
+* Practicing debugging techniques
 
+---
 
+# Functions
 
+## Topics
 
-#Operator overloading
--Some _add_() like methods and how overloading works so some things are there
+* The `main()` function and how it works
+* Arguments vs. parameters
+* Mutable and immutable arguments
+* Return statements
+* Returning multiple values
+* Void vs. non-void functions
+* Different ways of defining functions
 
+  * Regular functions
+  * Lambda functions
+  * Nested functions
+  * Recursive functions
 
+---
 
+# Classes and Objects
 
-#Data Types and Variables
--How help() function
--How we can write names of variables in an eligible way
--Other things also
+## Topics
 
+* `self`
+* `__init__()`
+* Instance attributes
+* Modifying object attributes
+* Hiding attributes (encapsulation)
+* Instance methods
 
+---
 
-#Numbers in python
--Some of the functions with numbers I need to take care of
--And there is much more to floating function need further -clarification on that so let’s see how can we fix that so far
+# Polymorphism and Inheritance
 
+## Topics
 
+* Parent and child classes
+* Inheritance
+* Method overriding
+* Polymorphism
+* More practice later
 
+---
 
+# Operator Overloading
 
-#Operators in python
--Some of the operators how they works
--And or and not 
--Something more or other s also
+## Topics
 
+* Special (dunder) methods
+* `__add__()`
+* Other operator overloading methods
+* How operator overloading works
 
+---
 
-#Strings in python
--String comparison using format functions
--Lots of different things
+# Data Types and Variables
 
+## Topics
 
+* Python data types
+* Variable naming conventions
+* Using the `help()` function
+* Other important concepts
 
+---
 
+# Numbers in Python
 
+## Topics
 
-#String Methods in Python
--will be added soon
+* Numeric functions
+* Integer operations
+* Floating-point behavior
+* More practice with floating-point precision
 
+---
 
+# Operators in Python
 
+## Topics
 
-#If-else statement
--will be added soon
+* Arithmetic operators
+* Comparison operators
+* Logical operators
 
+  * `and`
+  * `or`
+  * `not`
+* Assignment operators
+* Other useful operators
+
+---
+
+# Strings in Python
+
+## Topics
+
+* String comparison
+* String formatting
+* Useful string operations
+* Other string-related concepts
+
+---
+
+# String Methods
+
+> **Status:** Will be added soon.
+
+---
+
+# If-Else Statements
+
+> **Status:** Will be added soon.
