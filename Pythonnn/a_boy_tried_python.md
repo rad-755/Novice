@@ -103,7 +103,8 @@
 
 # String Methods in Python
 
-* Will be added later.
+* many kinds of functions how to change and modify a strings and apply some of the functions
+- understanding will be more for sure by Allah
 
 ---
 
