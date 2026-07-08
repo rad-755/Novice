@@ -110,4 +110,6 @@
 
 # If-else statement
 
-* Will be added later.
+* Will be added later...now-------
+- here we learn if and else 
+-nested else 
