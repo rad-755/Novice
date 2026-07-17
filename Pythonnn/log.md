@@ -6,3 +6,8 @@
 - getting the word and command "remote n "origin"
 - lets see if we can do something with the word "stash"
 - kind of some idea when to use the command 'git push' alone and when to with other words
+- hey g n b learned `how to ` some of the things and you learned some of the key ideas like...
+  - as how git works
+  - the buzzword `PR` gets bit cleared
+  - can tell something about making branches other than `main`
+
